@@ -25,7 +25,10 @@ studi kasus proyek.</p>
 
 ## Project 1 - Memperoleh MAC Address ESP32 Receiver
 ### Rangkaian
+
+
 ### Hasil
+<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/b9e09121-7440-4218-893c-3fe93e07088d" width="480px">
 
 
 ## Project 2 -  ESP-NOW One-Way Point-to-Point Communication
