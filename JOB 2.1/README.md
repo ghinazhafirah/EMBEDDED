@@ -23,29 +23,29 @@ studi kasus proyek.</p>
 4) Resistor 10K Ohm
 5) Sensor DHT11
 
-## Project 1 - Memperoleh MAC Address ESP32 Receiver
+## Project A - Memperoleh MAC Address ESP32 Receiver
 ### Rangkaian
-
+Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/A.%20%20Memperoleh%20MAC%20Address/A._Memperoleh_MAC_Address_ESP32_Receiver.ino)
 
 ### Hasil
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/b9e09121-7440-4218-893c-3fe93e07088d" width="480px">
 
 
-## Project 2 -  ESP-NOW One-Way Point-to-Point Communication
+## Project B -  ESP-NOW One-Way Point-to-Point Communication
 ### Rangkaian 
 ### Hasil
   
-## Project 3 - One-Way, One-to-Many Communication
+## Project C - One-Way, One-to-Many Communication
 ### Rangkaian 
 ### Hasil
 
 
-## Project 4 - One-Way, Many-to-One Communication
+## Project D - One-Way, Many-to-One Communication
 ### Rangkaian 
 ### Hasil
 
 
-## Project 5 - Two-Way Communication
+## Project E - Two-Way Communication
 ### Rangkaian 
 ### Hasil
 
