@@ -41,7 +41,7 @@
 
    <img src="" width="480px">
 
-    Script program dapat dilihat [disini](url)
+    Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/4.%20sensor%20disentuh%2C%20led%20menyala%2C%20angka%20bertambah/percobaan2_step8.ino)
    
 5. LED menyala menjadi running LED saat sensor disentuh
    
