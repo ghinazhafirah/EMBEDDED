@@ -106,7 +106,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/caeff801-2416-458a-a4
 
    <img src="" width="480px">
 
-    Script program dapat dilihat [disini](url)
+    Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20untuk%20hak%20akses_/rfid_dan_servo_step5.ino)
 
 ### Hasil
 1. Tag RFID ke RFID Reader
