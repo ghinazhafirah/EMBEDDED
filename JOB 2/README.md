@@ -29,7 +29,7 @@
 
    Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/1.%20ESP32%20TOUCH%20TEST/Percobaan1_Step2.ino)
 
-   Script program dapat dilihat [disini](url)
+   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/2.%20LED%20nyala%20ketika%20disentuh%20mati%20ketika%20tidak%20disentuh/percobaan2_step6.ino)
    
 3. LED Blink saat sensor disentuh
    
