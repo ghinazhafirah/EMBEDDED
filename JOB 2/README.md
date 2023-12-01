@@ -75,19 +75,23 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/2ae6a7fc-b90f-4b6d-a9
 1. Akses Sensor DHT 11 (Single wire/Bus)
 
    <img src="" width="480px">
+
+   Script program dapat dilihat [disini](url)
    
 2. Kontrol Buzzer menggunakan Sensor Suhu
 
    <img src="" width="480px">
 
+   Script program dapat dilihat [disini](url)
+
 ### Hasil
 1. Akses Sensor DHT 11 (Single wire/Bus)
 
-   [](url)
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/caeff801-2416-458a-a408-a709d2800a59
    
 2. Kontrol Buzzer menggunakan Sensor Suhu
 
-   [](url)
+   
 
 ## C. Mengakses Sensor RFID (SPI Communication)
 
@@ -95,16 +99,21 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/2ae6a7fc-b90f-4b6d-a9
 1. Tag RFID ke RFID Reader
 
    <img src="" width="480px">
+
+    Script program dapat dilihat [disini](url)
    
 2. Tag RFID untuk hak akses
 
    <img src="" width="480px">
 
+    Script program dapat dilihat [disini](url)
+
 ### Hasil
 1. Tag RFID ke RFID Reader
 
-   [](url)
-   
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/360ce1d2-648f-447d-be34-1ee27b1af538
+
 2. Tag RFID untuk hak akses
 
-   [](url)
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/481e38e1-92d4-4846-a6b4-50e91f425b8c
+ 
