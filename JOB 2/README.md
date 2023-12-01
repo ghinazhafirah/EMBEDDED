@@ -47,7 +47,7 @@
    
    <img src="" width="480px">
 
-   Script program dapat dilihat [disini](url)
+   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/5.%20RUNNING%20LED%20SECARA%20KONTINYU/percobaan2_step9.ino)
    
 ### Hasil
 1. LED menyala saat sensor disentuh
