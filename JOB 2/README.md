@@ -76,7 +76,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/2ae6a7fc-b90f-4b6d-a9
 
    <img src="" width="480px">
 
-   Script program dapat dilihat [disini](url)
+   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/1.%20AKSES%20SENSOR%20DHT%2011/sensor_dht_step3.ino)
    
 2. Kontrol Buzzer menggunakan Sensor Suhu
 
