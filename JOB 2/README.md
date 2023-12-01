@@ -27,21 +27,23 @@
 
     <img src="" width="480px">
 
+   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/1.%20ESP32%20TOUCH%20TEST/Percobaan1_Step2.ino)
+
    Script program dapat dilihat [disini](url)
    
-2. LED Blink saat sensor disentuh
+3. LED Blink saat sensor disentuh
    
    <img src="" width="480px">
 
    Script program dapat dilihat [disini](url)
    
-3. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
+4. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
 
    <img src="" width="480px">
 
     Script program dapat dilihat [disini](url)
    
-4. LED menyala menjadi running LED saat sensor disentuh
+5. LED menyala menjadi running LED saat sensor disentuh
    
    <img src="" width="480px">
 
