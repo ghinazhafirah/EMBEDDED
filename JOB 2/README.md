@@ -35,7 +35,7 @@
    
    <img src="" width="480px">
 
-   Script program dapat dilihat [disini](url)
+   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/3.%20LED%20BLINK%20KETIKA%20SENSOR%20DISENTUH/Percobaan2.ino)
    
 4. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
 
