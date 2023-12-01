@@ -22,31 +22,50 @@
 
 ## A. ESP32 Capacitive Touch Sensor
 
-### Rangkaian 
+### Rangkaian
 1. LED menyala saat sensor disentuh
-   
-   <img src="" width="480px">
+
+    <img src="" width="480px">
+
+   Script program dapat dilihat [disini](url)
    
 2. LED Blink saat sensor disentuh
    
    <img src="" width="480px">
+
+   Script program dapat dilihat [disini](url)
    
 3. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
 
    <img src="" width="480px">
+
+    Script program dapat dilihat [disini](url)
    
 4. LED menyala menjadi running LED saat sensor disentuh
    
    <img src="" width="480px">
+
+   Script program dapat dilihat [disini](url)
    
 ### Hasil
 1. LED menyala saat sensor disentuh
 
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5376c9d2-ea28-4341-a9b3-89dacbedb6c4
+
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5cec3073-04af-4645-86ce-297e6880a355
+
 2. LED Blink saat sensor disentuh
 
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/99ed4e1f-4f40-4f05-81ca-35bb43bb238d
+
 3. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
+
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/178f4d8a-53b5-41c4-92c2-60ae40fb56b9
  
 4. LED menyala menjadi running LED saat sensor disentuh
+
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/2ae6a7fc-b90f-4b6d-a976-de2e7fa2d598
+
 
 ## B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
