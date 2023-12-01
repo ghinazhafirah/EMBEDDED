@@ -24,28 +24,39 @@ studi kasus proyek.</p>
 5) Sensor DHT11
 
 ## Project A - Memperoleh MAC Address ESP32 Receiver
-### Rangkaian
+### Codingan 
 Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/A.%20%20Memperoleh%20MAC%20Address/A._Memperoleh_MAC_Address_ESP32_Receiver.ino)
 
 ### Hasil
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/b9e09121-7440-4218-893c-3fe93e07088d" width="480px">
 
-
 ## Project B -  ESP-NOW One-Way Point-to-Point Communication
-### Rangkaian 
+### Codingan
+Script program As Sender dapat dilihat [dsini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20OneWay%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
+
+Script program As Receiver dapat dilihat [disini](url)
+
 ### Hasil
+As Sender
+
+<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/fcd19db7-006e-476d-a35a-cf993c4164ef" width="480px">
+
+
+As Receiver
+
+<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/ba000903-0762-47f8-b167-b3834d22f3e4" width="480px">
   
 ## Project C - One-Way, One-to-Many Communication
-### Rangkaian 
+### Codingan 
 ### Hasil
 
 
 ## Project D - One-Way, Many-to-One Communication
-### Rangkaian 
+### Codingan
 ### Hasil
 
 
 ## Project E - Two-Way Communication
-### Rangkaian 
+### Codingan
 ### Hasil
 
