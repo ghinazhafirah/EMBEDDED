@@ -36,7 +36,7 @@ Script program As Sender dapat dilihat [dsini](https://github.com/ghinazhafirah/
 
 Script program As Receiver dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20One-Way%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
 
-Script program Data Dummy dapat dilihat [disini](url)
+Script program Data Dummy dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20One-Way%20P2P%20Communication/sender%20dummy.ino)
 
 ### Hasil
 As Sender
@@ -47,6 +47,10 @@ As Sender
 As Receiver
 
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/ba000903-0762-47f8-b167-b3834d22f3e4" width="480px">
+
+Data Dummy
+
+<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3e363761-2c02-4153-9b75-6af65b14db4d" width="480px">
   
 ## Project C - One-Way, One-to-Many Communication
 ### Codingan 
