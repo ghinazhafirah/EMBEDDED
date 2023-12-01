@@ -34,7 +34,9 @@ Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/
 ### Codingan
 Script program As Sender dapat dilihat [dsini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20OneWay%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
 
-Script program As Receiver dapat dilihat [disini](url)
+Script program As Receiver dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20One-Way%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
+
+Script program Data Dummy dapat dilihat [disini](url)
 
 ### Hasil
 As Sender
