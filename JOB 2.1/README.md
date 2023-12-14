@@ -53,7 +53,12 @@ Data Dummy
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3e363761-2c02-4153-9b75-6af65b14db4d" width="480px">
   
 ## Project C - One-Way, One-to-Many Communication
-### Codingan 
+### Codingan
+A.  Mengirim Pesan yang Sama Ke Beberapa Board ESP32
+script program as receiver dapat dilihat [disini](url)
+
+B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
+script program as sender dapat dilihat [disini](url)
 ### Hasil
 
 
