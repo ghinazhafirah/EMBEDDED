@@ -32,7 +32,7 @@ Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/
 
 ## Project B -  ESP-NOW One-Way Point-to-Point Communication
 ### Codingan
-Script program As Sender dapat dilihat [dsini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20OneWay%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
+Script program As Sender dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20OneWay%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
 
 Script program As Receiver dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20One-Way%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
 
