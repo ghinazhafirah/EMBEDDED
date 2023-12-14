@@ -61,7 +61,11 @@ B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
 script program as sender dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/C.%20One-Way%2C%20One-to-Many%20Communication/B.%20Mengirim%20Pesan%20yang%20Berbeda%20Ke%20Beberapa%20Board%20ESP32/B%20SENDER.ino)
 
 ### Hasil
+A.  Mengirim Pesan yang Sama Ke Beberapa Board ESP32
+<img src="" width="480px">
 
+B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
+<img src="" width="480px">
 
 ## Project D - One-Way, Many-to-One Communication
 ### Codingan
