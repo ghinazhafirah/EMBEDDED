@@ -43,7 +43,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/12632450-d748-4302-99
 <img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/2.%20LED%20nyala%20ketika%20disentuh%20mati%20ketika%20tidak%20disentuh/percobaan2_step6.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 Output pada percobaan ini adalah LED akan menyala ketika sensor disentuh, dan LED akan mati ketika sensor tidak disentuh.
