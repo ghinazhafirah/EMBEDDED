@@ -51,7 +51,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/883ce85e-5f2e-455d-9925-d4a828eb0a4d)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%203/B.%20Menghubungkan%20ESP32%20dengan%20jaringan%20WIFI/B._Job3.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
@@ -59,8 +59,8 @@ ESP berperan sebagai station atau klien dalam sebuah jaringan/AP yang ada. Oleh 
 
 #### Menghubungkan ESP32 dengan Jaringan Wi-Fi | Proses menghubungkan jaringan
 
-https://github.com/JeffriPS/Embedded/assets/94127988/6f115a42-1ff0-41d9-b556-fbd8ca320c85
-
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/17ae9eda-3b3f-4545-85f7-b1145de2d802
+  
 #### Menghubungkan ESP32 dengan Jaringan Wi-Fi | ESP32 berhasil terhubung dan mendapatkan IP Address
 
 https://github.com/JeffriPS/Embedded/assets/94127988/d55ce36e-95fc-4904-a559-79244f5346c7
