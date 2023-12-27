@@ -120,7 +120,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/c1eaad69-0f7d-486d-93
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/2.%20KONTROL%20BUZZER%20MENGGUNAKAN%20SENSOR%20SUHU/sensor_dht11_dan_buzzer.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 Hasil dari tugas ini adalah apabila sensor mendeteksi suhu yang naik maka suhu pada serial monitor juga akan naik.
