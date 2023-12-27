@@ -73,7 +73,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/d2baf9f3-92ca-4e21-90
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/4.%20sensor%20disentuh%2C%20led%20menyala%2C%20angka%20bertambah/percobaan2_step8.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 Hasil dari percobaan ini adalah ketika LED menyala, maka pada Serial Monitor akan menampilkan angka yang akan bertambah setiap kali sensor disentuh
