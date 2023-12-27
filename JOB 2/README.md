@@ -137,7 +137,7 @@ https://github.com/JeffriPS/Embedded/assets/94127988/2f1ea066-960d-49fa-b76e-411
 <img alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/74a26b36-91ab-4a93-8a4d-af319da6e011">
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20ke%20RFID%20Reader/percobaan1_step3.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 Hasil dari percobaan ini adalah ketika RFID Card didekatkan pada RFID Reader maka akan muncul code deteksi RFID Card di serial monitor
