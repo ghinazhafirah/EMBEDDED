@@ -76,7 +76,9 @@ As Receiver
 
 
 B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
-<img src="" width="480px">
+As Sender
+
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/a6bf06d6-6053-4d4e-8a90-1f82928e7f0b
 
 ## Project D - One-Way, Many-to-One Communication
 ### Codingan
