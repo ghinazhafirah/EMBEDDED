@@ -57,7 +57,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/00b8b76c-82f0-4aa0-bd
 <img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/3.%20LED%20BLINK%20KETIKA%20SENSOR%20DISENTUH/Percobaan2.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
