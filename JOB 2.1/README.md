@@ -68,7 +68,7 @@ As Sender
 
 AS SENDER JIKA SALAH SATU ESP DIMATIKAN
 
-(https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/03cc0f8e-eafa-4f3e-bf38-cf98a73a7dad)
+<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/e4ef3a55-9aa5-488d-a259-6f119982f57b" width="480px">
 
 As Sender
 
