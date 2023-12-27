@@ -29,7 +29,7 @@
 <img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">disini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/1.%20ESP32%20TOUCH%20TEST/Percobaan1_Step2.ino">disini</a>
 
 ### c. Hasil dan Pembahasan
 Output pada percobaan ini adalah apabila ujung jumper disentuh maka grafik kapasitansi akan naik.
