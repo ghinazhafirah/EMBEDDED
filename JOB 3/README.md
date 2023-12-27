@@ -34,12 +34,12 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%203/A.%20ESP32%20WIFI%20Modes%20dan%20WIFI%20Scan/cek_wifi.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 ESP akan melakukan pemindaian jaringan WiFi dan menampilkan hasilnya, termasuk kekuatan sinyal, pada serial monitor. Jika tidak ada jaringan, pesan "No Networks Found" akan ditampilkan. Proses pemindaian akan diulang setiap 5 detik menggunakan delay(5000) untuk menghindari pemindaian yang terlalu cepat (spam).
 
-https://github.com/JeffriPS/Embedded/assets/94127988/fccd99ac-6159-4680-934d-742e2f85f939
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/552b4408-001b-419a-8ce0-7a2ed7f65b23
 
 ### d. Flowchart
 ![flowchart 3A](https://github.com/JeffriPS/Embedded/assets/94127988/0372edd9-30c1-4309-9ba6-c0c1693d0933)
