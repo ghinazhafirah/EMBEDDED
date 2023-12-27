@@ -62,7 +62,11 @@ script program as sender dapat dilihat [disini](https://github.com/ghinazhafirah
 
 ### Hasil
 A.  Mengirim Pesan yang Sama Ke Beberapa Board ESP32
-<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/1593d240-75d9-4f81-b156-1ad88789a1f9" width="480px">
+<img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/f3c08a29-61d6-4fc9-a878-30b197ca9e48" width="480px">
+![JOB 2 1 C A AS SENDER JIKA SALAH SATU ESP DIMATIKAN ](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/03cc0f8e-eafa-4f3e-bf38-cf98a73a7dad)
+As Sender
+As Receiver
+
 
 B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
 <img src="" width="480px">
