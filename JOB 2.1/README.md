@@ -92,10 +92,9 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/eb2f4305-7125-4bd1-a4
 
 ## Project E - Two-Way Communication
 ### Codingan
-1. Pengecekan Sensor DHT11
-   script program as sender dapat dilihat [disini]()
-2. Two-Way Communication
-   script program as sender dapat dilihat [disini]()
+1. Pengecekan Sensor DHT11 dapat dilihat [disini]()
+2. Two-Way Communication dapat dilihat [disini]()
+   
 ### Hasil
 1. Pengecekan Sensor DHT11
 
