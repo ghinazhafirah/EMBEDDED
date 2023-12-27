@@ -1,7 +1,7 @@
 # JOBSHEET 2 - PROTOKOL KOMUNIKASI DAN SENSOR
 
 ## Abstrak
-<p align="justify">Praktikum Protokol Komunikikasi dan Sensor ini bertujuan untuk memperkenalkan mahasiswa pada konsep dasar protokol komunikasi dan penggunaan sensor dengan menggunakan mikrokontroler ESP32. ESP32 merupakan salah satu jenis mikrokontroler yang memiliki kemampuan WiFi dan Bluetooth yang dapat digunakan untuk berbagai proyek Internet of Things (IoT). Praktikum ini akan membahas konsep dasar protokol komunikasi seperti Serial Communication, I2C, SPI, serta penerapannya dalam penggunaan sensor. Pada tahap awal praktikum, mahasiswa akan diperkenalkan dengan ESP32 dan lingkungan pengembangan perangkat lunak (IDE) yang umum digunakan untuk memprogram ESP32, seperti Arduino IDE atau PlatformIO. Setelah memahami dasar-dasar pemrograman ESP32, mahasiswa akan belajar tentang berbagai protokol komunikasi yang umum digunakan dalam mikrokontroler. Setelah memahami konsep dasar komunikasi, mahasiswa akan diperkenalkan dengan penggunaan sensor pada ESP32. Mereka akan belajar tentang berbagai jenis sensor seperti sensor suhu, sensor kelembaban, sensor gerak, atau sensor jarak dan bagaimana mengintegrasikan sensor-sensor tersebut dengan ESP32. Selanjutnya, mahasiswa akan diberikan praktikum untuk mengimplementasikan pengetahuan yang didapat dengan membuat proyek sederhana menggunakan ESP32, seperti membaca data dari sensor suhu dan menampilkan informasi tersebut melalui koneksi serial atau mengirim data sensor ke server menggunakan koneksi WiFi.</p>
+<p align="justify">Praktikum Protokol Komunikasi dan Sensor memperkenalkan mahasiswa pada konsep dasar protokol komunikasi dan penggunaan sensor dengan mikrokontroler ESP32, yang memiliki kemampuan WiFi dan Bluetooth untuk proyek Internet of Things (IoT). Materi melibatkan konsep Serial Communication, I2C, SPI, serta penerapan sensor seperti suhu, kelembaban, gerak, dan jarak pada ESP32. Setelah memahami dasar-dasar pemrograman ESP32, mahasiswa diajak untuk menerapkan pengetahuan tersebut dalam proyek sederhana, seperti membaca data sensor suhu dan mengirimkannya ke server melalui koneksi WiFi.</p>
 
 <p align="justify">Jobsheet ini bertujuan untuk memahami cara kerja protokol komunikasi yang terdapat pada ESP32, seperti UART, I2C, OneWire, SPI, menggunakan protokol komunikasi data seperti UART, I2C, OneWire, dan SPI untuk mengakses sensordsan diharapkan dapat memanfaatkan transducer sensor dan actuator untuk membuat sebuah perangkat IoT..</p>
 
@@ -20,100 +20,145 @@
 6) Servo
 7) Resistor 330,1K, 10K Ohm (@ 3)
 
-## A. ESP32 Capacitive Touch Sensor
+# A. ESP32 Capasitive Touch Sensor  
 
-### Rangkaian
-1. LED menyala saat sensor disentuh
+## 1. Cek Touch
 
-    <img src="" width="480px">
+### a. Rangkaian
 
-   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/1.%20ESP32%20TOUCH%20TEST/Percobaan1_Step2.ino)
+<img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
 
-   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/2.%20LED%20nyala%20ketika%20disentuh%20mati%20ketika%20tidak%20disentuh/percobaan2_step6.ino)
-   
-3. LED Blink saat sensor disentuh
-   
-   <img src="" width="480px">
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/1.%20ESP32%20TOUCH%20TEST/Percobaan1_Step2.ino">disini</a>
 
-   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/3.%20LED%20BLINK%20KETIKA%20SENSOR%20DISENTUH/Percobaan2.ino)
-   
-4. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
+### c. Hasil dan Pembahasan
+Output pada percobaan ini adalah apabila ujung jumper disentuh maka grafik kapasitansi akan naik.
 
-   <img src="" width="480px">
+https://github.com/JeffriPS/Embedded/assets/94127988/ee99970b-f3a2-409d-80fc-b23c33e29dee
 
-    Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/4.%20sensor%20disentuh%2C%20led%20menyala%2C%20angka%20bertambah/percobaan2_step8.ino)
-   
-5. LED menyala menjadi running LED saat sensor disentuh
-   
-   <img src="" width="480px">
+## 2. LED menyala ketika sensor disentuh
 
-   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/5.%20RUNNING%20LED%20SECARA%20KONTINYU/percobaan2_step9.ino)
-   
-### Hasil
-1. LED menyala saat sensor disentuh
+### a. Rangkaian
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5376c9d2-ea28-4341-a9b3-89dacbedb6c4
+<img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5cec3073-04af-4645-86ce-297e6880a355
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/2.%20LED%20nyala%20ketika%20disentuh%20mati%20ketika%20tidak%20disentuh/percobaan2_step6.ino">di sini</a>
 
-2. LED Blink saat sensor disentuh
+### c. Hasil dan Pembahasan
+Output pada percobaan ini adalah LED akan menyala ketika sensor disentuh, dan LED akan mati ketika sensor tidak disentuh.
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/99ed4e1f-4f40-4f05-81ca-35bb43bb238d
+https://github.com/JeffriPS/Embedded/assets/94127988/0e7375a1-2426-4bb4-b258-e30ced4775bf
 
-3. Saat sensor disentuh LED menyala dan serial monitor menampilkan angka yang bertambah
+## 3. LED menyala blink ketika sensor disentuh
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/178f4d8a-53b5-41c4-92c2-60ae40fb56b9
- 
-4. LED menyala menjadi running LED saat sensor disentuh
+### a. Rangkaian
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/2ae6a7fc-b90f-4b6d-a976-de2e7fa2d598
+<img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
+
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/3.%20LED%20BLINK%20KETIKA%20SENSOR%20DISENTUH/Percobaan2.ino">di sini</a>
+
+### c. Hasil dan Pembahasan
+
+Percobaan ini menunjukkan bahwa saat sensor disentuh, LED berkedip dengan interval 500 ms. Nilai kapasitansi kurang dari 20 menandakan sentuhan terdeteksi, sehingga LED berkedip. Jika nilai kapasitansi lebih besar atau sama dengan 20, LED dimatikan, menandakan tidak ada sentuhan terdeteksi.
+
+https://github.com/JeffriPS/Embedded/assets/94127988/6443ce83-28ff-4cb4-a3b3-697d856f3f06
+
+## 4. Angka yang akan bertambah setiap kali sensor disentuh
+
+### a. Rangkaian
+
+<img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/6b5b090a-8ef3-4759-aeb3-52d7d428f237">
 
 
-## B. Mengakses Sensor DHT 11 (Single Wire / BUS)
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/4.%20sensor%20disentuh%2C%20led%20menyala%2C%20angka%20bertambah/percobaan2_step8.ino">di sini</a>
 
-### Rangkaian
-1. Akses Sensor DHT 11 (Single wire/Bus)
+### c. Hasil dan Pembahasan
+Hasil dari percobaan ini adalah ketika LED menyala, maka pada Serial Monitor akan menampilkan angka yang akan bertambah setiap kali sensor disentuh
 
-   <img src="" width="480px">
+https://github.com/JeffriPS/Embedded/assets/94127988/e66042e3-b185-42f2-b755-79b04653be3e
 
-   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/1.%20AKSES%20SENSOR%20DHT%2011/sensor_dht_step3.ino)
-   
-2. Kontrol Buzzer menggunakan Sensor Suhu
+## 5. LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri
 
-   <img src="" width="480px">
+### a. Rangkaian
+Rangkaian pada percobaan ini adalah sebagai berikut
 
-   Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/2.%20KONTROL%20BUZZER%20MENGGUNAKAN%20SENSOR%20SUHU/sensor_dht11_dan_buzzer.ino)
 
-### Hasil
-1. Akses Sensor DHT 11 (Single wire/Bus)
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/caeff801-2416-458a-a408-a709d2800a59
-   
-2. Kontrol Buzzer menggunakan Sensor Suhu
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/5.%20RUNNING%20LED%20SECARA%20KONTINYU/percobaan2_step9.ino">di sini</a>
 
-   
+### c. Hasil dan Pembahasan
 
-## C. Mengakses Sensor RFID (SPI Communication)
+Percobaan ini menggunakan tiga LED untuk membentuk efek running LED saat sensor disentuh. Program membuka komunikasi serial dengan pesan "ESP32 Touch Test". Saat nilai kapasitansi sensor sentuh (T0/GPIO 4) kurang dari 20 (sentuhan terdeteksi), tiga LED (led1, led2, led3) berkedip berurutan setiap 500 ms. Jika tidak ada sentuhan, semua LED dimatikan. Nilai hitungan dicetak ke serial monitor.
 
-### Rangkaian
-1. Tag RFID ke RFID Reader
+https://github.com/JeffriPS/Embedded/assets/94127988/d0e9bfad-00c2-4c36-b520-c0f189d0c6c3
 
-   <img src="" width="480px">
+# B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
-    Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20ke%20RFID%20Reader/percobaan1_step3.ino)
-   
-2. Tag RFID untuk hak akses
+## 1. Cek Sensor DHT11
 
-   <img src="" width="480px">
+### a. Rangkaian 
 
-    Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20untuk%20hak%20akses_/rfid_dan_servo_step5.ino)
+<img alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/cca91488-7ed5-4895-8eec-67d8496790c8">
 
-### Hasil
-1. Tag RFID ke RFID Reader
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/1.%20AKSES%20SENSOR%20DHT%2011/sensor_dht_step3.ino">di sini</a>
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/360ce1d2-648f-447d-be34-1ee27b1af538
+### c. Hasil dan Pembahasan
+Hasil dari percobaan ini adalah ketika mengecek sensor DHT11. Jika sensor berfungsi dengan baik, maka serial monitor akan menampilkan hasil pembacaan suhu dan kelembaban oleh sensor DHT11.
 
-2. Tag RFID untuk hak akses
+https://github.com/JeffriPS/Embedded/assets/94127988/b8be5f06-1c60-4c92-b84a-7538f695eac0
 
-https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/481e38e1-92d4-4846-a6b4-50e91f425b8c
- 
+## 2. Tugas
+
+### a. Rangkaian
+
+![board-2](https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/14779bf1-007e-428e-b901-ab4477c5802c)
+
+
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/2.%20KONTROL%20BUZZER%20MENGGUNAKAN%20SENSOR%20SUHU/sensor_dht11_dan_buzzer.ino">di sini</a>
+
+### c. Hasil dan Pembahasan
+Hasil dari tugas ini adalah apabila sensor mendeteksi suhu yang naik maka suhu pada serial monitor juga akan naik.
+Ketika suhu rungan mencapai 30 derajat celcius, maka ESP32 akan menyalakan LED Merah dan buzzer.
+
+https://github.com/JeffriPS/Embedded/assets/94127988/2f1ea066-960d-49fa-b76e-4114f4cd063d
+
+# C. Mengakses Sensor RFID (SPI Communication)
+
+## 1. Cek RFID
+
+### a. Rangkaian 
+
+<img alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/74a26b36-91ab-4a93-8a4d-af319da6e011">
+
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20ke%20RFID%20Reader/percobaan1_step3.ino">di sini</a>
+
+### c. Hasil dan Pembahasan
+Hasil dari percobaan ini adalah ketika RFID Card didekatkan pada RFID Reader maka akan muncul code deteksi RFID Card di serial monitor
+
+https://github.com/JeffriPS/Embedded/assets/94127988/9e22e002-c2db-40ea-8959-3f9c5f3918f0
+
+## 2. Tugas
+
+### a. Rangkaian
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+
+
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20untuk%20hak%20akses/rfid_dan_servo_step5.ino">di sini</a>
+
+### c. Hasil dan Pembahasan
+
+Dalam percobaan ini, ketika tag RFID didekatkan pada Reader, LED Hijau menyala, servo bergerak ke kanan (kemudian kembali ke posisi semula setelah 3 detik), dan di Serial Monitor muncul pesan “Akses Diterima, Silahkan Masuk”. Namun, jika Tag RFID tidak dikenali, LED Merah menyala, servo tetap statis, dan di Serial Monitor terpampang pesan “Akses Ditolak”.
+
+https://github.com/JeffriPS/Embedded/assets/94127988/235eb796-e0c3-4ba8-af1e-4e5dd657b0fa
+
+
+
