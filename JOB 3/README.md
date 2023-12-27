@@ -34,7 +34,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%203/A.%20ESP32%20WIFI%20Modes%20dan%20WIFI%20Scan/cek_wifi.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil dan Pembahasan
 ESP akan melakukan pemindaian jaringan WiFi dan menampilkan hasilnya, termasuk kekuatan sinyal, pada serial monitor. Jika tidak ada jaringan, pesan "No Networks Found" akan ditampilkan. Proses pemindaian akan diulang setiap 5 detik menggunakan delay(5000) untuk menghindari pemindaian yang terlalu cepat (spam).
@@ -51,7 +51,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/883ce85e-5f2e-455d-9925-d4a828eb0a4d)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%203/B.%20Menghubungkan%20ESP32%20dengan%20jaringan%20WIFI/B._Job3.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
@@ -77,7 +77,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 ### b. Source Code
 
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%203/C.%20Menghubungkan%20Kembali%20(Re-connect)%20ESP32%20dengan%20Jaringan%20Wi-Fi/C._Job3.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil dan Pembahasan
 Sistem auto reconnect ini merupakan pengembangan dari sistem koneksi sebelumnya, dengan tambahan kondisi dalam loop untuk mendeteksi kehilangan koneksi. Jika ESP terdeteksi terputus dari jaringan, ESP akan mencoba menghubungkan ulang ke jaringan yang sebelumnya terhubung setelah beberapa "jeda waktu". Informasi SSID dan password telah disiapkan pada tahap sebelumnya untuk proses ini.
@@ -97,7 +97,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/883ce85e-5f2e-455d-9925-d4a828eb0a4d)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%203/D.%20Mengganti%20Hostname%20ESP32/D._Job3.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
