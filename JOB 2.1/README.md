@@ -70,7 +70,8 @@ B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
 ## Project D - One-Way, Many-to-One Communication
 ### Codingan
 A. Mengirim pesan sebagai sender
-script program as sender dapat dilihat [disini]()
+script program as sender dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/D.%20%20One-Way%2C%20Many-to-One%20Communication/sender.ino)
+
 ### Hasil
 A. Mendapat pesan sebagai sender
 
