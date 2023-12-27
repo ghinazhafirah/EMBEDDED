@@ -34,7 +34,7 @@ Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/bl
 ### c. Hasil dan Pembahasan
 Output pada percobaan ini adalah apabila ujung jumper disentuh maka grafik kapasitansi akan naik.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/ee99970b-f3a2-409d-80fc-b23c33e29dee
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/12632450-d748-4302-99e3-a751bb347bd9
 
 ## 2. LED menyala ketika sensor disentuh
 
@@ -48,7 +48,7 @@ Kode program dapat dilihat <a href="">di sini</a>
 ### c. Hasil dan Pembahasan
 Output pada percobaan ini adalah LED akan menyala ketika sensor disentuh, dan LED akan mati ketika sensor tidak disentuh.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/0e7375a1-2426-4bb4-b258-e30ced4775bf
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/00b8b76c-82f0-4aa0-bde6-f559c0d9f9e3
 
 ## 3. LED menyala blink ketika sensor disentuh
 
@@ -63,7 +63,7 @@ Kode program dapat dilihat <a href="">di sini</a>
 
 Percobaan ini menunjukkan bahwa saat sensor disentuh, LED berkedip dengan interval 500 ms. Nilai kapasitansi kurang dari 20 menandakan sentuhan terdeteksi, sehingga LED berkedip. Jika nilai kapasitansi lebih besar atau sama dengan 20, LED dimatikan, menandakan tidak ada sentuhan terdeteksi.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/6443ce83-28ff-4cb4-a3b3-697d856f3f06
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/d2baf9f3-92ca-4e21-901a-a858b13bc655
 
 ## 4. Angka yang akan bertambah setiap kali sensor disentuh
 
@@ -78,7 +78,7 @@ Kode program dapat dilihat <a href="">di sini</a>
 ### c. Hasil dan Pembahasan
 Hasil dari percobaan ini adalah ketika LED menyala, maka pada Serial Monitor akan menampilkan angka yang akan bertambah setiap kali sensor disentuh
 
-https://github.com/JeffriPS/Embedded/assets/94127988/e66042e3-b185-42f2-b755-79b04653be3e
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/4d3d984f-aebd-4d25-b506-d15c5a2410c4
 
 ## 5. LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri
 
@@ -94,7 +94,7 @@ Kode program dapat dilihat <a href="">di sini</a>
 
 Percobaan ini menggunakan tiga LED untuk membentuk efek running LED saat sensor disentuh. Program membuka komunikasi serial dengan pesan "ESP32 Touch Test". Saat nilai kapasitansi sensor sentuh (T0/GPIO 4) kurang dari 20 (sentuhan terdeteksi), tiga LED (led1, led2, led3) berkedip berurutan setiap 500 ms. Jika tidak ada sentuhan, semua LED dimatikan. Nilai hitungan dicetak ke serial monitor.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/d0e9bfad-00c2-4c36-b520-c0f189d0c6c3
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/21a8e5e1-698a-47f5-b637-1f237f2e856c
 
 # B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
@@ -110,7 +110,7 @@ Kode program dapat dilihat <a href="">di sini</a>
 ### c. Hasil dan Pembahasan
 Hasil dari percobaan ini adalah ketika mengecek sensor DHT11. Jika sensor berfungsi dengan baik, maka serial monitor akan menampilkan hasil pembacaan suhu dan kelembaban oleh sensor DHT11.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b8be5f06-1c60-4c92-b84a-7538f695eac0
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/c1eaad69-0f7d-486d-936d-92ef0393f236
 
 ## 2. Tugas
 
@@ -142,7 +142,7 @@ Kode program dapat dilihat <a href="">di sini</a>
 ### c. Hasil dan Pembahasan
 Hasil dari percobaan ini adalah ketika RFID Card didekatkan pada RFID Reader maka akan muncul code deteksi RFID Card di serial monitor
 
-https://github.com/JeffriPS/Embedded/assets/94127988/9e22e002-c2db-40ea-8959-3f9c5f3918f0
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/111cf428-9b58-4bcc-bc22-8fa7c267ec8b
 
 ## 2. Tugas
 
@@ -158,7 +158,8 @@ Kode program dapat dilihat <a href="">di sini</a>
 
 Dalam percobaan ini, ketika tag RFID didekatkan pada Reader, LED Hijau menyala, servo bergerak ke kanan (kemudian kembali ke posisi semula setelah 3 detik), dan di Serial Monitor muncul pesan “Akses Diterima, Silahkan Masuk”. Namun, jika Tag RFID tidak dikenali, LED Merah menyala, servo tetap statis, dan di Serial Monitor terpampang pesan “Akses Ditolak”.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/235eb796-e0c3-4ba8-af1e-4e5dd657b0fa
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/d7e13819-c66a-469a-b0a5-a218a0b5f7c8
+
 
 
 
