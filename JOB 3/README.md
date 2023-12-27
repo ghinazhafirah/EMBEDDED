@@ -97,13 +97,13 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/883ce85e-5f2e-455d-9925-d4a828eb0a4d)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%203/D.%20Mengganti%20Hostname%20ESP32/D._Job3.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
 Hostname merupakan identitas yang digunakan oleh ESP32 pada suatu jaringan. Saat ESP terhubung ke jaringan, pemilik jaringan (AP) dapat melihat identitas perangkat, yaitu hostname dari ESP. Sebelum terhubung ke jaringan, ESP harus mendeklarasikan hostname menggunakan perintah `WiFi.setHostname()`. Untuk mengganti hostname ESP32, Anda dapat meng-upload program ke ESP32 seperti yang dijelaskan dalam jobsheet. Setelah itu, buka serial monitor, aktifkan mode koneksi WiFi pada smartphone atau laptop, lakukan scanning, dan lihat daftar jaringan WiFi yang tersedia. Dengan menggunakan `WiFi.setHostname()`, Anda dapat menetapkan nama host untuk ESP32, yang akan terlihat di jaringan Wi-Fi. Pastikan untuk mendokumentasikan perubahan hostname yang telah dilakukan.
 
-https://github.com/JeffriPS/Embedded/assets/94127988/4c51a4e3-f60b-4a75-b4be-042537b02da2
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/39c93808-1554-4f90-bfd9-a22f2d18f1cd
 
 ### d. Flowchart
 
