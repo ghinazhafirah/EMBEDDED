@@ -64,6 +64,7 @@ Dengan demikian, broker MQTT menjadi penghubung yang efisien dalam pertukaran in
 
   2. Flow pada Gambar 6.5 merupakan pengembangan dari Gambar 6.1 dengan
 menambahkan JSON Parser dan Parser Function Node.
+
   3. Setelah flow program dibuat, konfigurasikan Temperature Node seperti
 Gambar 6.6.
 <img width="400" alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/d49d2464-04fe-4663-b851-f1d320c41ee9">
@@ -77,12 +78,11 @@ Gambar 6.6.
   6. Deploy flow program, kemudian dokumentasikan hasilnya.
 
 ### b. Hasil dan Pembahasan
-Percobaan Menerima Data JSON Melalui Protokol MQTT untuk menentukan cara parsing atau pemrosesan pesan JSON yang diterima. Bagaimana pesan JSON diubah menjadi objek atau data yang dapat digunakan dalam aplikasi atau sistem yang diimplementasikan. `on_connect` digunakan untuk menangani kejadian saat klien berhasil terhubung, sementara `on_message` digunakan untuk mengelola pesan yang diterima dari broker MQTT. Keduanya memungkinkan pengguna untuk menentukan tindakan khusus saat koneksi berhasil atau ketika pesan baru diterima.
-Hasil yang ditampilkan adalah nilai dari humi, yaitu "30"
+Pada percobaan Menerima Data JSON Melalui Protokol MQTT, fokus utamanya adalah menentukan metode parsing atau pemrosesan pesan JSON yang diterima. Langkah ini melibatkan konversi pesan JSON menjadi objek atau data yang dapat digunakan dalam aplikasi atau sistem yang diimplementasikan. Fungsi *on_connect* digunakan untuk mengelola kejadian ketika klien berhasil terhubung, sementara *on_message* bertanggung jawab atas pemrosesan pesan yang diterima dari broker MQTT. Kedua fungsi ini memberikan fleksibilitas kepada pengguna untuk menentukan tindakan khusus saat koneksi berhasil atau ketika pesan baru diterima. Sebagai hasilnya, nilai yang ditampilkan adalah nilai dari humi, yaitu "30".
+
+![JOB 6 B 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/92ec70cf-3e20-4d75-b302-55ad7015a4e2)
 
 
-
-![hasil-2](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/ce02f934-cfe2-4509-967c-7ebfc0868395)
 ### Tugas
 
 Kembangkan flow program tersebut agar mempunya 2 input (Inject Node). Input pertama seperti contoh, kemudian pisahkan datanya agar bisa tertampil
@@ -91,10 +91,9 @@ kitchen/sensors, dengan jenis sensor flame : 0 , metane : 0, temp : 24, humi :38
 
 ![langkah-2-tugas](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/94e161f9-379a-4322-9bb5-56725231c7f0)
 
-![hasil-2-tugas](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/a65ae6c2-8ce7-4cdd-9596-38945d252070)
+![JOB 6 B 7](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/caa2266b-5a89-43db-a37e-633ea81f07df)
 
-Pada bagian ini, ditambahkan sebuah inject node lagi sehingga menjadi 2 buah inject node. Pada inject node pertama masih berisi topic livingroom/sensors. Pada inject node kedua diberikan topic kitchen/sensors dengan jenis sensor flame : 0 , metane : 0, temp : 24, humi :38.
-Kedua inject node tersebut akan ditampilkan pada debug node yang berbeda, yaitu inject pertama dengan nilai humi "30" akan ditampilkan pada debug 1, sedangkan inject kedua dengan nilai humi "30" akan ditampilkan pada debug 2.
+percobaan ini merupakan pengembangan dari percobaan sebelumnya, penambahan dilakukan dengan memasukkan sebuah inject node tambahan, sehingga sekarang terdapat dua inject node. Inject node pertama masih berisi topik "livingroom/sensors", sementara inject node kedua memiliki topik "kitchen/sensors" dengan jenis sensor flame: 0, metane: 0, temp: 24, humi: 38. Kedua inject node ini akan memasukkan data ke dalam debug node yang berbeda, yaitu inject pertama dengan nilai humi "30" akan ditampilkan pada debug 1, sedangkan inject kedua dengan nilai humi "30" akan terlihat pada debug 2. Dengan demikian, penambahan inject node memperkaya variasi data yang dapat diobservasi melalui debug node, memungkinkan pemantauan dan analisis yang lebih rinci terhadap data yang diterima dari berbagai topik dan sensor.
 
 # C. Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware
 
@@ -113,10 +112,9 @@ Kedua inject node tersebut akan ditampilkan pada debug node yang berbeda, yaitu 
 
 
 ### b. Hasil dan Pembahasan
-Pada percobaan ke 3 yaitu percobaan Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware hal pertama yang dilakukan adalah mengkonfigurasi dan mengimplementasi Mqtt pada hardware, kemudian melanjutkan ke mengirim data dummy melalui MQTT, kemudian memulai interaksi dengan topik MQTT dan akan divalidasi sebelum klik tombol "Subscribe"
-Selanjutnya Klik tombol “Subscribe” untuk mengetahui data yang dikirim dapat diterima kembali oleh Clients. Kemudian klik tombol Publish. Hasil yang ditampilkan adalah {"temp":26} dari data dummy topic livingroom/sensors.
+Dalam percobaan ketiga, berfokus pada Mengirim Dummy Data untuk Simulasi I/O menggunakan hardware, langkah pertama melibatkan konfigurasi dan implementasi MQTT pada perangkat keras. Dilanjutkan dengan pengiriman data dummy melalui protokol MQTT. Proses ini diikuti dengan inisiasi interaksi menggunakan topik MQTT, yang akan diverifikasi sebelum mengklik tombol "Subscribe". Setelah melakukan konfigurasi, tahap selanjutnya adalah mengklik tombol "Subscribe" untuk memastikan bahwa data yang dikirim dapat diterima kembali oleh klien. Kemudian, melalui langkah selanjutnya, tombol "Publish" ditekan untuk mengirimkan data dummy dengan format {"temp":26} pada topik livingroom/sensors. Hasil yang ditampilkan melalui proses ini adalah konfirmasi penerimaan data oleh klien, yang dalam hal ini menunjukkan data dummy dengan nilai suhu sebesar 26.
 
-![hasil-3](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/7954a14e-5d19-408a-8569-70b91b3ae4f0)
+![JOB 6 C](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/40f7e235-eafb-4940-9147-a20ac963f6dc)
 
 ### Tugas
 
@@ -124,4 +122,4 @@ Kembangkan flow program yang sudah dibuat agar dapat menerima data berupa String
 
 ![hasil-tugas](https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/aebc2501-c5d7-4dbb-a19b-0a9c6ad78cf8)
 
-Pada bagian ini dikembangkan agar dapat menrima data berupa string, boolean, dan number. Ketiga data tersebut akan ditampilkan pada 3 log yang berbeda. Data yang ditampilkan adalah {"temp":26}, Hello World dan 12.
+Pada tahap pengembangan ini, sistem dikembangkan agar dapat menerima data dalam bentuk string, boolean, dan number. Ketiga jenis data tersebut akan dipresentasikan pada tiga log yang berbeda. Oleh karena itu, data yang akan ditampilkan melibatkan informasi berupa {"temp":26}, pesan teks "Hello World", dan angka 12.
