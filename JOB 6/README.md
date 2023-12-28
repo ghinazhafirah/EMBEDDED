@@ -1,9 +1,12 @@
 # JOBSHEET 6 - TRANSMISI DATA MENGGUNAKAN MESSAGE QUEUING TELEMETRY TRANSPORT (MQTT) PROTOCOL
 
 ## Abstrak
-<p align="justify">Praktikum ini membahas implementasi dan penggunaan protokol Message Queuing Telemetry Transport (MQTT) dalam konteks transmisi data. MQTT adalah protokol komunikasi ringan yang dirancang untuk perangkat dengan keterbatasan sumber daya, seperti sensor dan perangkat Internet of Things (IoT). Tujuan utama praktikum ini adalah untuk memberikan pemahaman tentang konsep dasar MQTT, serta melakukan pengujian dan implementasi langsung dari protokol ini.</p>
+<p align="justify">
+  Pada praktikum ini, fokus utamanya adalah implementasi dan penerapan protokol Message Queuing Telemetry Transport (MQTT) dalam konteks transmisi data. MQTT, sebagai protokol komunikasi yang ringan, dirancang khusus untuk perangkat dengan keterbatasan sumber daya, seperti sensor dan perangkat Internet of Things (IoT). Praktikum bertujuan memberikan pemahaman mendalam tentang konsep dasar MQTT, melibatkan aspek-aspek seperti topik, penerbitan (publishing), langganan (subscribing), dan struktur pesan.</p>
 
-<p align="justify">Pada praktikum ini, mahasiswa akan mempelajari prinsip dasar MQTT, termasuk topik, penerbitan (publishing), langganan (subscribing), dan struktur pesan. Mereka juga akan belajar tentang broker MQTT sebagai perantara dalam pertukaran pesan antara penerbit dan pelanggan. Selain itu, peserta akan melakukan konfigurasi dan penggunaan perangkat lunak atau platform yang mendukung MQTT, seperti Eclipse Mosquitto atau platform IoT yang mengintegrasikan protokol ini. Pada praktikum ini, mahasiswa juga akan terlibat dalam serangkaian tugas, termasuk pengaturan dan konfigurasi broker MQTT, membuat penerbit dan pelanggan MQTT sederhana, serta mentransmisikan data dalam lingkungan simulasi atau di perangkat fisik yang terhubung. Mereka akan memahami cara membuat topik, menerbitkan pesan ke topik, dan menerima pesan dari topik yang sama atau berbeda.</p>
+<p align="justify">Mahasiswa dalam praktikum ini akan mempelajari prinsip dasar MQTT, termasuk peran kunci seperti broker MQTT yang berfungsi sebagai perantara dalam pertukaran pesan antara penerbit dan pelanggan. Selain itu,juga akan terlibat dalam konfigurasi dan penggunaan perangkat lunak atau platform yang mendukung MQTT, seperti Eclipse Mosquitto atau platform IoT yang terintegrasi dengan protokol ini.
+
+Serangkaian tugas praktikum melibatkan pengaturan dan konfigurasi broker MQTT, pembuatan penerbit dan pelanggan MQTT sederhana, serta pengiriman data baik dalam lingkungan simulasi maupun pada perangkat fisik yang terhubung. Mahasiswa juga akan memahami bagaimana membuat topik, menerbitkan pesan ke topik, dan menerima pesan dari topik yang sama atau berbeda.</p>
 
 <p align="justify">Jobsheet ini bertujuan untuk memahami alur kerja, kegunaan dan manfaat protokol MQTT,serta memahami dan mengimplementasikan protokol MQTT pada sistem IoT untuk monitoring dan kendali.</p>
 
@@ -45,12 +48,13 @@
 outputnya.
 
 ### b. Hasil dan Pembahasan
-Broker MQTT bertindak sebagai perantara antara penerbit (publisher) dan pelanggan (subscriber). MQTT memfasilitasi pertukaran pesan dengan mengelola topik (topics) yang diterbitkan dan di-subscribe oleh klien sehingga kita dapat mengirim dan menerima data melalui broker MQTT.
-Selanjutnya Klik tombol “Deploy” yang terletak pada pojok kanan atas UI untuk menjalankan program. 
-Hasil dari operasi tersebut akan ditampilkan di Debug Node. Hasilnya adalah nilai Temperature yaitu "28".
+Broker MQTT berfungsi sebagai perantara dalam interaksi antara penerbit (publisher) dan pelanggan (subscriber). Dengan menggunakan protokol MQTT, pertukaran pesan difasilitasi melalui manajemen topik (topics) yang diterbitkan dan di-subscribe oleh klien. Hal ini memungkinkan pengiriman dan penerimaan data melalui broker MQTT.
 
+Selanjutnya yaitu penekanan tombol "Deploy" yang terletak di pojok kanan atas antarmuka pengguna untuk menjalankan program. Hasil operasi tersebut akan terlihat pada Debug Node, di mana hasilnya mencerminkan nilai suhu, yakni "28".
 
-![hasil-1](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/9895ba4d-e1a8-41fc-a7ac-6dd8f1197465)
+Dengan demikian, broker MQTT menjadi penghubung yang efisien dalam pertukaran informasi antara penerbit dan pelanggan, sedangkan tombol "Deploy" digunakan untuk mengeksekusi program dan menampilkan hasilnya melalui Debug Node.
+
+![JOB 6 A 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/7bee2c5e-68c0-40eb-a31a-aab5a1182a81)
 
 # B. Menerima Data JSON Melalui Protokol MQTT
 
@@ -75,6 +79,7 @@ Gambar 6.6.
 ### b. Hasil dan Pembahasan
 Percobaan Menerima Data JSON Melalui Protokol MQTT untuk menentukan cara parsing atau pemrosesan pesan JSON yang diterima. Bagaimana pesan JSON diubah menjadi objek atau data yang dapat digunakan dalam aplikasi atau sistem yang diimplementasikan. `on_connect` digunakan untuk menangani kejadian saat klien berhasil terhubung, sementara `on_message` digunakan untuk mengelola pesan yang diterima dari broker MQTT. Keduanya memungkinkan pengguna untuk menentukan tindakan khusus saat koneksi berhasil atau ketika pesan baru diterima.
 Hasil yang ditampilkan adalah nilai dari humi, yaitu "30"
+
 
 
 ![hasil-2](https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/ce02f934-cfe2-4509-967c-7ebfc0868395)
