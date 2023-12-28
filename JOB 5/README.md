@@ -171,3 +171,7 @@ Buatlah arsitektur sistem IoT menggunakan semua fungsi yang ada pada Hands-On. F
 
 ### c. Hasil
 ![hasil-tugas](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/c03aab51-4320-4046-9073-246ca8d3b00a)
+### c. Hasil
+![hasil-tugas](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/c03aab51-4320-4046-9073-246ca8d3b00a)
+
+
