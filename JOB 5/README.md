@@ -38,13 +38,9 @@ Alat dan bahan yang digunakan dalam jobsheet ini, antara lain:
   6. Dokumentasikan output dari program tersebut.
 
 ### b. Hasil dan Pembahasan
-Basic flow dimulai dengan memastikan perangkat komputer terpasang node-red kemudian membuat basic flow dan mengonfigurasi node input dan node output.
-Node-input pada Node-RED adalah elemen awal dalam alur kerja yang menerima data dari sumber tertentu, sedangkan node-output adalah elemen akhir yang 
-mengarahkan data ke destinasi atau tindakan sesuai dengan hasil pemrosesan dalam alur kerja tersebut.
-Selanjutnya Klik tombol “Deploy” yang terletak pada pojok kanan atas UI untuk menjalankan program. 
-Hasil dari operasi tersebut akan ditampilkan di Debug Node.
+Memastikan bahwa Node-RED telah terpasang pada perangkat komputer. Lalu membuat alur dasar dengan mengonfigurasi node input dan node output. Node-input pada Node-RED merupakan komponen awal dalam alur kerja yang menerima data dari sumber tertentu, sementara node-output merupakan elemen akhir yang mengarahkan data ke destinasi atau melakukan tindakan berdasarkan hasil pemrosesan dalam alur kerja tersebut. Selanjutnya mengklik tombol "Deploy" yang terletak di pojok kanan atas antarmuka pengguna untuk menjalankan program yang telah dibuat. Hasil dari operasi ini akan ditampilkan di Debug Node, memberikan pemahaman tentang keluaran atau hasil dari alur kerja yang telah dijalankan.
 
-![hasil-1](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/5a6b0faf-fd91-4e76-8e08-c3af1fdea6e3)
+![JOB 5 A](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/1a0594fd-5b3a-4b42-8595-928503deada9)
 
 # B. Menggunakan Function Node
 
@@ -59,20 +55,20 @@ Hasil dari operasi tersebut akan ditampilkan di Debug Node.
   6. Konfigurasikan node fungsi seperti gambar berikut ini.
 
      ![job5bjuga](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/479dc948-0a22-43ce-af94-8f00bb52b988)
-     
-  8. Deploy program dan dokumentasikan hasilnya.
+
+  7. Deploy program dan dokumentasikan hasilnya.
 ### b. Hasil dan Pembahasan
-Pada percobaan pertama, function node dimulai dengan membuat flow fungsi output tunggal dan menkonfigurasi node input1 lalu mengisi payload dengan ”Hello World” dan topik berupa ”test1”. Deploy program dan hasil akan muncul pada debug, yaitu "Hello World"
+Pada langkah awal function node melibatkan pembuatan alur dengan output fungsi tunggal. Node input1 dikonfigurasi untuk mengirimkan payload "Hello World" dengan topik "test1". Setelah deploy program, hasilnya akan terlihat pada debug, yaitu "Hello World".
 
-![hasil-2-1](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/c0c74118-8f01-4281-9c20-9c1ebb244c6f)
+![JOB 5 B 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/afe01761-696d-43ea-8e7d-66650e577329)
 
+Dilanjutkan dengan membuat alur fungsi output berganda yang berfungsi memisahkan pesan. Node Input2 dikonfigurasi dengan payload "Expeliarmus" dan topik "test2". Function node pada Node-RED memungkinkan penulisan kode JavaScript khusus untuk memproses dan memanipulasi data yang mengalir dalam alur kerja.
 
-Kemudian dilanjutkan dengan membuat flow fungsi output berganda yang berfungsi memisahkan pesan lalu konfigurasikan node Input2. Isikan payload dengan “Expeliarmus”, dan topic berupa “test2”. 
-Function node pada Node-RED adalah elemen yang memungkinkan penulisan kode JavaScript khusus untuk memproses dan memanipulasi data yang mengalir melalui alur kerja. Dengan function node, hasil yang muncul adalah
-- Jika msg.topic adalah "test1", maka node output pertama akan menerima [msg, null], yang berarti pesan "Hello World" akan dikirim ke output pertama, sedangkan output kedua akan tetap kosong (null).
-- Jika msg.topic adalah "test2", maka node output kedua akan menerima [msg, null], yang berarti pesan "Expeliarmus" akan dikirim ke output kedua, sedangkan output pertama akan tetap kosong (null).
+Hasil yang dihasilkan oleh function node adalah sebagai berikut:
+- Jika msg.topic adalah "test1", maka node output pertama akan menerima [msg, null]. Ini berarti pesan "Hello World" akan dikirim ke output pertama, sementara output kedua akan tetap kosong (null).
+- Jika msg.topic adalah "test2", maka node output kedua akan menerima [msg, null]. Ini berarti pesan "Expeliarmus" akan dikirim ke output kedua, sementara output pertama akan tetap kosong (null).
 
-![hasil-2-2](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/d1073605-391d-4f6e-a007-8dea1b14c577)
+![JOB 5 B 4](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/81649130-35be-401b-970f-d17ede925e27)
 
 # C. Menggunakan Switch Node
 
@@ -84,19 +80,21 @@ Function node pada Node-RED adalah elemen yang memungkinkan penulisan kode JavaS
   3. Konfigurasi Switch Node seperti pada gambar di bawah.
      
      ![job5c](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/ebbf8f0e-ee57-4912-8e61-d3999b69ff6c)
+![JOB 5 C](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/8484c65e-c5e6-4e11-8ea4-47dce4ae7a80)
 
   4. Deploy flow dan dokumentasikan hasilnya.
 
 ### b. Hasil dan Pembahasan
-Pada percobaan menggunakan switch node dimulai dengan membuat flow dan konfigurasi Input/Inject Node. Isikan Payload pada Inject Node 1 dengan angka 30. Kemudian pada Inject Node 2, isikan Payload dengan angka 27.
-Kemudian mengkonfigurasi switch node seperti pada jobsheet. Switch Node pada Node-RED berfungsi sebagai alat untuk memisahkan jalur alur kerja berdasarkan kondisi atau nilai tertentu dalam pesan, memungkinkan kita untuk 
-mengarahkan pesan ke cabang yang sesuai dengan aturan logika yang ditentukan. Pada percobaan ini, yang terjadi pada switch node adalah:
-- input dengan nilai >28 diarahkan ke output pertama, sedangkan output kedua kosong
-- input dengan nilai <=28 diarahkan ke output kedua, sedangkan output pertama kosong
+Dalam uji coba menggunakan switch node, langkah pertama melibatkan pembuatan alur dan konfigurasi pada Input/Inject Node. Payload pada Inject Node 1 diisi dengan angka 30, sementara pada Inject Node 2 diisi dengan angka 27.
 
-Sehingga hasil keluaran pada debug node setelah deploy adalah seperti berikut
+Kemudian switch node dikonfigurasi sesuai dengan petunjuk pada jobsheet. Switch node pada Node-RED berperan sebagai alat untuk memisahkan jalur alur kerja berdasarkan kondisi atau nilai tertentu dalam pesan. Ini memungkinkan untuk mengarahkan pesan ke cabang yang sesuai dengan aturan logika yang ditentukan. Dalam percobaan ini, aturan pada switch node adalah sebagai berikut:
+- Input dengan nilai >28 diarahkan ke output pertama, sementara output kedua kosong.
+- Input dengan nilai <=28 diarahkan ke output kedua, sementara output pertama kosong.
 
-![hasil-3](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/0df147e7-577a-4cf5-a49d-65aa5d151437)
+Sehingga, setelah melakukan deploy, hasil keluaran pada debug node akan mencerminkan pengarahan pesan sesuai dengan kondisi yang telah ditentukan.
+
+![JOB 5 C](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/f7d165c8-7d63-4315-83ca-d742df3f3ffa)
+
 # D. Menggunakan JSON Parsing
 
 ### a. Langkah Kerja
@@ -111,18 +109,16 @@ Sehingga hasil keluaran pada debug node setelah deploy adalah seperti berikut
   3. Deploy flow dan dokumentasikan hasilnya.
 
 ### b. Hasil dan Pembahasan
-Pada percobaan ini, menggunakan JSON Parsing dimulai dengan membuat flow dan mengkonfigurasi inject node, JSON Parser Node, dan Function Node. 
-Node JSON Parser pada Node-RED digunakan untuk mengonversi data JSON yang diterima dalam format string menjadi objek JavaScript yang dapat diproses lebih lanjut 
-dalam alur kerja, menyederhanakan manipulasi dan ekstraksi informasi dari struktur data JSON. Node ini memfasilitasi pengolahan data JSON dengan cara yang lebih mudah dan terintegrasi dalam alur kerja Node-RED.
+Pada percobaan kali ini, penggunaan JSON Parsing dimulai dengan membuat alur dan mengonfigurasi Inject Node, JSON Parser Node, dan Function Node. Node JSON Parser pada Node-RED berperan penting dalam mengonversi data JSON yang diterima dalam format string menjadi objek JavaScript. Hal ini memudahkan manipulasi dan ekstraksi informasi dari struktur data JSON dalam alur kerja Node-RED.
 
-Pada percobaan ini, yang terjadi adalah
-- Node input menerima pesan (message) dengan properti msg.payload yang berisi data JSON: {"temp":27,"humidity":50} dan msg.topic dengan nilai /sensor.
-- JSON Parser Node mengonversi data JSON menjadi objek JavaScript. Dalam hal ini, properti msg.payload diatur ulang sehingga berisi objek JSON yang sekarang dapat diakses oleh node berikutnya.
-- Function Node mengambil nilai suhu (temp) dari objek JSON yang ada di dalam msg.payload dan menggantinya sebagai nilai baru untuk msg.payload. Dengan kata lain, hasil akhir pesan adalah msg.payload yang sekarang hanya berisi nilai suhu (27).
+Pada tahap percobaan, yang terjadi yaitu:
+- Node input menerima pesan dengan properti msg.payload yang berisi data JSON: {"temp":27,"humidity":50}, dan msg.topic dengan nilai /sensor.
+- JSON Parser Node berfungsi mengonversi data JSON menjadi objek JavaScript. Dalam konteks ini, properti msg.payload diubah sehingga berisi objek JSON yang dapat diakses oleh node berikutnya.
+- Function Node bertugas mengambil nilai suhu (temp) dari objek JSON di dalam msg.payload dan menggantinya sebagai nilai baru untuk msg.payload. Dengan kata lain, hasil akhir pesan adalah msg.payload yang kini hanya berisi nilai suhu (27).
 
-Sehingga, hasil keluarannya adalah seperti berikut
+Sehingga, setelah menjalankan alur kerja dan melakukan deploy, hasil keluarannya akan mencerminkan proses tersebut, dan nilai akhir pada msg.payload adalah suhu yang telah diekstraksi, yaitu 27.
+![JOB 5 D](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3e5de5c8-3d89-4a1e-bb3a-fcc61eee0015)
 
-![hasil-4](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/6f4fbd35-96a2-4f0d-84c1-6b1b0a484a1c)
 # Tugas
 
 Buatlah arsitektur sistem IoT menggunakan semua fungsi yang ada pada Hands-On. Format data yang dikirim adalah multi-input dengan format data String, Bolean, Number dan JSON (3 data). Setiap input mempunyai ditampilkan dalam Debug Node yang berbeda.
@@ -164,5 +160,5 @@ Buatlah arsitektur sistem IoT menggunakan semua fungsi yang ada pada Hands-On. F
      ![image](https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/8fe8f92c-791a-4aee-9dad-5c7bf3ec7236)
 
 ### c. Hasil
-![hasil-tugas](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/c03aab51-4320-4046-9073-246ca8d3b00a)
+![JOB 5 TUGAS](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/e980d7e6-c73e-4fb7-b47c-53415c2babe4)
 
