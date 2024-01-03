@@ -52,15 +52,15 @@
 
 1. Led menyala saat button ditekan
 
-https://github.com/JeffriPS/Embedded/assets/94127988/5ad67d0c-3b53-4e1f-9226-77f8c7b0fe47
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3d79ae54-9506-4a6d-8184-90f9413c2120
 
 2. Led menyala dan _blink_ saat button ditekan
 
-https://github.com/JeffriPS/Embedded/assets/94127988/9a5401ee-c8fb-49f8-8fca-d3abc94fadcf
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/72cb5b04-d2bc-4cf1-98fb-4448b391ab25
 
 3. Led menyala, _blink_, dan berjalan saat button ditekan
 
-https://github.com/JeffriPS/Embedded/assets/94127988/abaaff78-c4e1-4227-aa7b-359e8c38c276
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/73491752-dff0-4b4f-8c70-4524b3330b2c
 
 ## Project 2 - PWM
 
@@ -78,11 +78,11 @@ https://github.com/JeffriPS/Embedded/assets/94127988/abaaff78-c4e1-4227-aa7b-359
 
 1. Satu LED _breathing_
 
-https://github.com/JeffriPS/Embedded/assets/94127988/4f8e8415-2d07-47a2-bbcf-1e0e4c5081ce
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/9febe77b-d338-46be-a4ae-081a9a62f95d
 
 2. Tiga LED _breathing_
 
-https://github.com/JeffriPS/Embedded/assets/94127988/068ce46c-5de8-4f4f-b119-6c39fb59d1c4
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/b7af23fb-8bad-430b-b363-67e810339081
 
 ## Project 3 - ADC
 
@@ -100,14 +100,16 @@ https://github.com/JeffriPS/Embedded/assets/94127988/068ce46c-5de8-4f4f-b119-6c3
 
 1. Keluaran potensio pada serial monitor
 
-https://github.com/JeffriPS/Embedded/assets/94127988/877b44a9-766a-430d-b54a-5d09f6f830bd
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/646cf78b-cf1e-4903-acc6-a18720630322
 
 2. Potensio terhadap cahaya LED
 
-https://github.com/JeffriPS/Embedded/assets/94127988/298065dd-e981-4a54-bf4f-44efd82d1169
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/6d061868-d31c-402e-9f31-b3a1d06625a0
 
 ## Project 4 - Agresi Linier
 
 ### Hasil
 
-https://github.com/JeffriPS/Embedded/assets/94127988/0af1a624-7cac-48e7-8073-87121965496b
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/f21ac86f-8a05-423d-b7a4-91193c897a38
+
+
