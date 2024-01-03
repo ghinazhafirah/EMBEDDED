@@ -87,14 +87,23 @@ Dashboard
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/d976ac67-aac5-4fed-b22f-8c0fbf668476)
 
 ### b. Source Code
+
 Kode program dapat dilihat <a href="">di sini</a>
 
-### c. Hasil 
+### c. Hasil dan Pembahasan
 
+Serial Monitor
+
+![job_4c_hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/405c630f-785b-46ac-8ee6-fd4cfb85fe58)
+
+Debug
+![job_4c_hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/8490e7df-54e4-4738-b10e-9faa18af53c5)
+
+Dashboard
+![job_4c_hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/a54d02ce-e5da-44c6-afa3-e1b0fc010922)
 
 ### d. Pembahasan
 
