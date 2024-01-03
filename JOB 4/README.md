@@ -75,6 +75,7 @@ Serial monitor
 ![4b_http_post_hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/716bf2ff-78e6-4805-861a-fa7d8c4295e0)
 
 Debug
+
 ![4b_http_post_hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/c5db590e-23cd-464a-a98a-575d925f5c59)
 
 Dashboard
@@ -100,6 +101,7 @@ Serial Monitor
 ![job_4c_hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/405c630f-785b-46ac-8ee6-fd4cfb85fe58)
 
 Debug
+
 ![job_4c_hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/8490e7df-54e4-4738-b10e-9faa18af53c5)
 
 Dashboard
