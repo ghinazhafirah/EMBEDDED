@@ -92,7 +92,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 ### b. Source Code
 
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/c.%20Transmisi%20Data%20Menggunakan%20Protokol%20MQTT/job_4c/job_4c.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
@@ -109,18 +109,42 @@ Dashboard
 
 ### d. Pembahasan
 
-# D. Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
+# D. Akuisisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT.
+
+## 1. Melalui Dashboard Node_red
 
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
-
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
 
 
 ### b. Source Code
 Kode program dapat dilihat <a href="">di sini</a>
 
-### c. Hasil 
+### c. Hasil dan Pembahasan
 
+Serial Monitor
+ 
+Debug
+  
+- Dashboard
 
-### d. Pembahasan
+- Hasil Percobaan
+
+## 2. Melalui Dashboard Adafruit.io
+
+### a. Rangkaian
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/33ff05eb-3727-48df-b23c-f51a47d39de5)
+
+### b. Source Code
+Kode program dapat dilihat <a href="">di sini</a>
+
+### c. Hasil dan Pembahasan
+
+Serial Monitor
+  
+- Adafruit Widget
+
+- Hasil Percobaan
+ 
