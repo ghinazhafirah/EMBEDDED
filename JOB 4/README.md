@@ -39,7 +39,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3874fd3b-d0b9-4b9d-9a
 ### d. Pembahasan
 
 # B. Transmisi Data Menggunakan Protokol HTTP
-
+## Metode Get
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
