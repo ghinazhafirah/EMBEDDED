@@ -118,7 +118,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/d.%20Akuisi%20Data%20dan%20Pengendalian/4d_led/4d_led.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
@@ -138,7 +138,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/33ff05eb-3727-48df-b23c-f51a47d39de5)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/d.%20Akuisi%20Data%20dan%20Pengendalian/4d_adafruit/4d_adafruit/4d_adafruit.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 
