@@ -67,7 +67,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5370634c-3a3b-4f71-be4e-d13be8a2b8e9)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/b.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/4b_Http_Post/4b_http_post/4b_http_post.ino">di sini</a>
 
 ### c. Hasil 
 
