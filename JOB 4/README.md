@@ -61,6 +61,27 @@ Debug
 Dashboard
 ![4B_Step4 hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/551d1bac-baac-4651-8f10-3e54c10a536c)
 
+## Metode Post
+### a. Rangkaian
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
+
+
+### b. Source Code
+Kode program dapat dilihat <a href="">di sini</a>
+
+### c. Hasil 
+
+Serial monitor
+![4b_http_post_hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/716bf2ff-78e6-4805-861a-fa7d8c4295e0)
+
+Debug
+![4b_http_post_hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/c5db590e-23cd-464a-a98a-575d925f5c59)
+
+Dashboard
+![4b_http_post_hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/fd516aa8-9a46-4f88-8e15-a4c688fae722)
+
 ### d. Pembahasan
 
 # C. Transmisi Data Menggunakan Protokol MQTT
