@@ -43,8 +43,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3874fd3b-d0b9-4b9d-9a
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/afc9a6c2-d5d9-49c3-b17e-478941ce97af)
 
 ### b. Source Code
 Kode program dapat dilihat <a href="">di sini</a>
@@ -65,8 +64,7 @@ Dashboard
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5370634c-3a3b-4f71-be4e-d13be8a2b8e9)
 
 ### b. Source Code
 Kode program dapat dilihat <a href="">di sini</a>
