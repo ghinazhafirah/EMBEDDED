@@ -51,14 +51,14 @@ Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil 
 
-Multi-Protocol IoT Server
+Serial monitor
 ![4B_Step4 hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/70367b87-6a21-406c-b975-dd27eabb3158)
 
-Transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get
+Debug
 
 ![4B_Step4 hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/e15aef80-80d5-4a2b-b514-7fd18ffb5c6d)
 
-Transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST
+Dashboard
 ![4B_Step4 hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/551d1bac-baac-4651-8f10-3e54c10a536c)
 
 ### d. Pembahasan
