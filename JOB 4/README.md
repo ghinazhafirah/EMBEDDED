@@ -94,7 +94,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/c.%20Transmisi%20Data%20Menggunakan%20Protokol%20MQTT/job_4c/job_4c.ino">di sini</a>
 
-### c. Hasil dan Pembahasan
+### c. Hasil
 
 Serial Monitor
 
@@ -115,12 +115,12 @@ Dashboard
 
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/94c85ae6-a541-4a81-a11a-3aea2da51887)
 
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/d.%20Akuisi%20Data%20dan%20Pengendalian/4d_led/4d_led.ino">di sini</a>
 
-### c. Hasil dan Pembahasan
+### c. Hasil
 
 Serial Monitor
  
@@ -129,6 +129,8 @@ Debug
 Dashboard
 
 Hasil Percobaan
+
+### d. pembahasan
 
 ## 2. Melalui Dashboard Adafruit.io
 
@@ -140,11 +142,12 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/d.%20Akuisi%20Data%20dan%20Pengendalian/4d_adafruit/4d_adafruit/4d_adafruit.ino">di sini</a>
 
-### c. Hasil dan Pembahasan
+### c. Hasil
 
 Serial Monitor
 
 Adafruit Widget
 
 Hasil Percobaan
- 
+
+### d. Pembahasan
