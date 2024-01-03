@@ -38,15 +38,15 @@
 
 1. Led menyala saat button ditekan
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/fbcfd1fc-ed43-40e2-b5b3-836685f54b66" width="480px">
 
 2. Led menyala dan _blink_ saat button ditekan
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/64456b45-3d2a-4fa7-ac9f-d6d55e8c27ca" width="480px">
 
 3. Led menyala, _blink_, dan berjalan saat button ditekan
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/991c3846-6606-4b5b-bba4-f014b7da6a0f" width="480px">
 
 ### Hasil
 
@@ -68,11 +68,11 @@ https://github.com/JeffriPS/Embedded/assets/94127988/abaaff78-c4e1-4227-aa7b-359
 
 1. Satu LED _breathing_
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/12ebe147-2802-4d9d-b5fa-376b1d30901e" width="480px">
 
 2. Tiga LED _breathing_
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/b4e3a5e1-f575-43a1-b8c2-e9e756b8b247" width="480px">
 
 ### Hasil
 
@@ -90,11 +90,11 @@ https://github.com/JeffriPS/Embedded/assets/94127988/068ce46c-5de8-4f4f-b119-6c3
 
 1. Keluaran potensio pada serial monitor
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/5e6df142-ced5-4620-ac4a-987d972b485f" width="480px">
 
 2. Potensio terhadap cahaya LED
 
-<img src="" width="480px">
+<img src="https://github.com/JeffriPS/Embedded/assets/94127988/63a0a5fc-4518-4a25-87ba-a2ff954d04c4" width="480px">
 
 ### Hasil
 
