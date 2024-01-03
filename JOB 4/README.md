@@ -30,11 +30,11 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/a.%20Setting%20SSID%20dan%20Password%20Wi-Fi%20ESP32%20melalui%20Web%20Server/JOB_4_A.ino">di sini</a>
 
 ### c. Hasil 
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3874fd3b-d0b9-4b9d-9ab5-d3d577c6d99e
 
 ### d. Pembahasan
 
@@ -47,11 +47,18 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil 
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
+Multi-Protocol IoT Server
+![4B_Step4 hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/70367b87-6a21-406c-b975-dd27eabb3158)
+
+Transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get
+![4B_Step4 hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/e15aef80-80d5-4a2b-b514-7fd18ffb5c6d)
+
+Transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST
+![4B_Step4 hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/551d1bac-baac-4651-8f10-3e54c10a536c)
 
 ### d. Pembahasan
 
@@ -64,11 +71,10 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil 
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
 
 ### d. Pembahasan
 
@@ -81,10 +87,9 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="">di sini</a>
 
 ### c. Hasil 
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
 
 ### d. Pembahasan
