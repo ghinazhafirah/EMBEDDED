@@ -126,9 +126,9 @@ Serial Monitor
  
 Debug
   
-- Dashboard
+Dashboard
 
-- Hasil Percobaan
+Hasil Percobaan
 
 ## 2. Melalui Dashboard Adafruit.io
 
@@ -143,8 +143,8 @@ Kode program dapat dilihat <a href="">di sini</a>
 ### c. Hasil dan Pembahasan
 
 Serial Monitor
-  
-- Adafruit Widget
 
-- Hasil Percobaan
+Adafruit Widget
+
+Hasil Percobaan
  
