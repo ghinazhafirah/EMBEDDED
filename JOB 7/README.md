@@ -45,7 +45,7 @@ Dalam percobaan ini, kami melakukan pemasangan SQL Server menggunakan terminal p
 2. Hasil Flow program transmisi data pada protokol HTTP dengan respons OK
 ![JOB 7 B 9](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/6432365a-c557-4449-83a7-892c2bb0946e)
 
-3. Hasil Flow program transmisi data pada protokol HTTP dengan respons BAD
+3. Hasil Flow program transmisi data pada protokol HTTP dengan respons 
 ![JOB 7 ERROR](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/52fcbc41-0613-4715-a222-1acd2f440fff)
 
 4. Hasil Flow program untuk parsing data JSON
