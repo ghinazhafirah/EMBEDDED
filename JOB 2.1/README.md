@@ -31,6 +31,10 @@ Script program dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/b9e09121-7440-4218-893c-3fe93e07088d" width="480px">
 
 ## Project B -  ESP-NOW One-Way Point-to-Point Communication
+### Rangkaian 
+
+![Rangkaian](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/06e5cf7b-123a-45c6-8da0-a66990a229ce)
+
 ### Codingan
 Script program As Sender dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20OneWay%20P2P%20Communication/B._Sender_One_way_point_to_point_communication.ino)
 
@@ -53,6 +57,9 @@ Data Dummy
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3e363761-2c02-4153-9b75-6af65b14db4d" width="480px">
   
 ## Project C - One-Way, One-to-Many Communication
+### Rangkaian 
+![Rangkaian](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/396f8c21-bcfe-416f-a81d-44895661cb2d)
+
 ### Codingan
 A.  Mengirim Pesan yang Sama Ke Beberapa Board ESP32
 script program as receiver dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/C.%20One-Way%2C%20One-toMany%20Communication/A.%20%20Mengirim%20Pesan%20yang%20Sama%20Ke%20Beberapa%20Board%20ESP32/A_as_receiver.ino)
@@ -76,6 +83,9 @@ As Sender
 https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/a6bf06d6-6053-4d4e-8a90-1f82928e7f0b
 
 ## Project D - One-Way, Many-to-One Communication
+### Rangkaian
+![Rangkaian](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/054120d4-e028-456c-b6e8-9e930c955cbf)
+
 ### Codingan
 A. Mengirim pesan sebagai sender
 script program as sender dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/D.%20%20One-Way%2C%20Many-to-One%20Communication/sender.ino)
@@ -86,6 +96,13 @@ A. Mendapat pesan sebagai sender
 https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/eb2f4305-7125-4bd1-a456-ab8dcb1cc950
 
 ## Project E - Two-Way Communication
+### Rangkaian
+Rangkaian cek sensor
+![Rangkaian_Cek_sensor](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/cd3b8660-8539-4494-9da1-b98bb78da4c3)
+
+Rangkaian Two-Way Communication
+![ESP32](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/652e2f77-d3f4-471f-8de5-0acb42b3dd19)
+
 ### Codingan
 1. Pengecekan Sensor DHT11 dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/E.%20%20Two-Way%20Communication/Cek_Sensor_DHT_11.ino)
    
