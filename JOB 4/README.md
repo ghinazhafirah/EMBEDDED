@@ -123,12 +123,17 @@ Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/bl
 ### c. Hasil
 
 Serial Monitor
+
  
 Debug
-  
+![debug node red](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/6a1fa602-30d3-4ddd-8ede-f437af42b553)
+
 Dashboard
+![dashboard node red](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/744474e8-c30e-48e1-a26f-e4569446f0dc)
 
 Hasil Percobaan
+
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/7aea45eb-ca59-47d1-bc6c-2d783bf150b1
 
 ### d. pembahasan
 
