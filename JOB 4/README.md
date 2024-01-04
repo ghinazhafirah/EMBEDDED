@@ -37,6 +37,7 @@ Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/bl
 https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3874fd3b-d0b9-4b9d-9ab5-d3d577c6d99e
 
 ### d. Pembahasan
+ESP32 akan menampilkan daftar SSID Wi-Fi yang dapat diakses pada serial monitor. Program tersebut berusaha untuk menghubungkan ke jaringan WiFi yang telah disimpan dalam EEPROM (memori non-volatil). Jika upaya koneksi WiFi tidak berhasil atau terjadi penekanan tombol fisik pada pin D15 (GPIO15), program akan memulai konfigurasi sebagai titik akses (Access Point) guna melakukan pengaturan ulang WiFi. Hasil dari eksperimen ini adalah mencapai koneksi WiFi kampus dengan sukses.
 
 # B. Transmisi Data Menggunakan Protokol HTTP
 ## Metode Get
@@ -82,6 +83,7 @@ Dashboard
 ![4b_http_post_hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/fd516aa8-9a46-4f88-8e15-a4c688fae722)
 
 ### d. Pembahasan
+Bagian ini menampilkan perbedaan dalam metode penggunaan protokol HTTP. Sebelumnya, digunakan metode GET, namun pada bagian ini beralih menggunakan metode POST. 
 
 # C. Transmisi Data Menggunakan Protokol MQTT
 
@@ -108,6 +110,7 @@ Dashboard
 ![job_4c_hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/a54d02ce-e5da-44c6-afa3-e1b0fc010922)
 
 ### d. Pembahasan
+Dalam percobaan ini, digunakan protokol MQTT, dan server broker yang dipakai adalah EMQX. EMQX adalah suatu server broker yang dirancang khusus untuk mengelola serta mendukung protokol komunikasi berbasis publikasi-berlangganan, seperti MQTT (Message Queuing Telemetry Transport). Server ini ditujukan untuk mendukung komunikasi efisien antar perangkat dalam jaringan IoT (Internet of Things). Setelah berhasil mengunggah program, data dummy seperti dev_id, level, rainfall, dan flow akan dipublikasikan ke topik flood/node1. Output yang terlihat kemudian adalah sebagai berikut.
 
 # D. Akuisisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT.
 
@@ -138,6 +141,7 @@ Hasil Percobaan
 https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/ca594656-2f0b-44cf-883b-ae00a728c875
 
 ### d. pembahasan
+Dalam perocbaan ini, protokol yang tetap digunakan adalah MQTT seperti sebelumnya. Perbedaannya terletak pada penambahan fungsionalitas kontrol LED pada dashboard Node-Red. LED tersebut terhubung ke pin D2 dan dapat diatur untuk menyala atau mati melalui perubahan status tombol switch pada dashboard Node-Red.
 
 ## 2. Melalui Dashboard Adafruit.io
 
@@ -164,3 +168,4 @@ Hasil Percobaan
 https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/f9a8c5a8-83d9-4604-81d8-83a64c1316f2
 
 ### d. Pembahasan
+Dalam percobaan ini, perbedaannya terletak pada pengaturan nyala LED yang dikendalikan melalui dashboard Adafruit. Langkah-langkahnya termasuk masuk ke situs web io.adafruit.com dan membuat akun terlebih dahulu. Selanjutnya, buatlah widget dashboard sesuai dengan panduan pada jobsheet. Hal krusial di sini adalah menentukan IO USERNAME dan IO KEY dalam program Arduino. IO USERNAME merupakan nama pengguna untuk login, sementara IO KEY adalah kunci API yang digunakan untuk otentikasi dan akses ke layanan Adafruit IO. Kunci IO dapat ditemukan di dasbor Adafruit yang ditandai dengan ikon kunci berwarna kuning. Pastikan juga bahwa feed (umpan) telah dikonfigurasi dengan benar. Setelah semuanya selesai diatur, hasilnya akan terlihat seperti yang ditunjukkan.
