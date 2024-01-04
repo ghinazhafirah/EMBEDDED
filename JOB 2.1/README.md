@@ -70,11 +70,6 @@ AS SENDER JIKA SALAH SATU ESP DIMATIKAN
 
 <img src="https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/e4ef3a55-9aa5-488d-a259-6f119982f57b" width="480px">
 
-As Sender
-
-As Receiver
-
-
 B. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
 As Sender
 
