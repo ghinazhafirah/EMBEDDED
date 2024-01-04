@@ -30,28 +30,56 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/a.%20Setting%20SSID%20dan%20Password%20Wi-Fi%20ESP32%20melalui%20Web%20Server/JOB_4_A.ino">di sini</a>
 
 ### c. Hasil 
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3874fd3b-d0b9-4b9d-9ab5-d3d577c6d99e
 
 ### d. Pembahasan
 
 # B. Transmisi Data Menggunakan Protokol HTTP
-
+## Metode Get
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/afc9a6c2-d5d9-49c3-b17e-478941ce97af)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/b.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/4b_Http_Get/4b_step4/4b_step4.ino">di sini</a>
 
 ### c. Hasil 
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
+Serial monitor
+![4B_Step4 hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/70367b87-6a21-406c-b975-dd27eabb3158)
+
+Debug
+
+![4B_Step4 hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/e15aef80-80d5-4a2b-b514-7fd18ffb5c6d)
+
+Dashboard
+![4B_Step4 hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/551d1bac-baac-4651-8f10-3e54c10a536c)
+
+## Metode Post
+### a. Rangkaian
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/5370634c-3a3b-4f71-be4e-d13be8a2b8e9)
+
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/b.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/4b_Http_Post/4b_http_post/4b_http_post.ino">di sini</a>
+
+### c. Hasil 
+
+Serial monitor
+![4b_http_post_hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/716bf2ff-78e6-4805-861a-fa7d8c4295e0)
+
+Debug
+
+![4b_http_post_hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/c5db590e-23cd-464a-a98a-575d925f5c59)
+
+Dashboard
+![4b_http_post_hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/fd516aa8-9a46-4f88-8e15-a4c688fae722)
 
 ### d. Pembahasan
 
@@ -60,31 +88,66 @@ https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d58
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/d976ac67-aac5-4fed-b22f-8c0fbf668476)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
 
-### c. Hasil 
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/c.%20Transmisi%20Data%20Menggunakan%20Protokol%20MQTT/job_4c/job_4c.ino">di sini</a>
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
+### c. Hasil
+
+Serial Monitor
+
+![job_4c_hasil 1](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/405c630f-785b-46ac-8ee6-fd4cfb85fe58)
+
+Debug
+
+![job_4c_hasil 2](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/8490e7df-54e4-4738-b10e-9faa18af53c5)
+
+Dashboard
+![job_4c_hasil 3](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/a54d02ce-e5da-44c6-afa3-e1b0fc010922)
 
 ### d. Pembahasan
 
-# D. Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
+# D. Akuisisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT.
+
+## 1. Melalui Dashboard Node_red
+
+### a. Rangkaian
+Rangkaian pada percobaan ini adalah sebagai berikut
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/94c85ae6-a541-4a81-a11a-3aea2da51887)
+
+### b. Source Code
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/d.%20Akuisi%20Data%20dan%20Pengendalian/4d_led/4d_led.ino">di sini</a>
+
+### c. Hasil
+
+Serial Monitor
+ 
+Debug
+  
+Dashboard
+
+Hasil Percobaan
+
+### d. pembahasan
+
+## 2. Melalui Dashboard Adafruit.io
 
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![job3a](https://github.com/iamanisaamalia/sistemembedded/assets/147674408/a37af924-187d-41d9-8d78-a6316d5a189b)
-
+![WhatsApp Image 2024-01-03 at 14 28 55_e658e36e](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/33ff05eb-3727-48df-b23c-f51a47d39de5)
 
 ### b. Source Code
-Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%204/4A_Setting_SSID_password_melalui_web_server/JOB_4_A.ino">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%204/d.%20Akuisi%20Data%20dan%20Pengendalian/4d_adafruit/4d_adafruit/4d_adafruit.ino">di sini</a>
 
-### c. Hasil 
+### c. Hasil
 
-https://github.com/JeffriPS/Embedded/assets/94127988/b49e8854-51df-43a1-bffc-d589732b421f
+Serial Monitor
+
+Adafruit Widget
+
+Hasil Percobaan
 
 ### d. Pembahasan
