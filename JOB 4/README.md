@@ -123,6 +123,7 @@ Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/bl
 ### c. Hasil
 
 Serial Monitor
+
 ![Serial monitor nodered](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/4aa33974-28e5-4f63-a12a-b3392d372c77)
 
 Debug
@@ -151,9 +152,11 @@ Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/bl
 ### c. Hasil
 
 Serial Monitor
+
 ![serial monitor](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/b15a7d2c-1670-4754-98fe-877f373ff0f6)
 
 Adafruit Widget
+
 ![adafruit dashboard](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/997d4f6e-cafe-4383-8985-2f530d928b08)
 
 Hasil Percobaan
