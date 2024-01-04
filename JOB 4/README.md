@@ -150,4 +150,6 @@ Adafruit Widget
 
 Hasil Percobaan
 
+https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/f9a8c5a8-83d9-4604-81d8-83a64c1316f2
+
 ### d. Pembahasan
