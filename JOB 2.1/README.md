@@ -45,7 +45,7 @@ Script program As Receiver dapat dilihat [disini](https://github.com/ghinazhafir
 Script program Data Dummy dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20One-Way%20P2P%20Communication/sender%20dummy.ino)
 
 ### Hasil dan Pembahasan
-### A. ANALISIS PROGRAM SENDER DAN RECEIVER
+#### A. ANALISIS PROGRAM SENDER DAN RECEIVER
 **PROGRAM SENDER**
 1. Include Library dan Header
 ```c
@@ -219,7 +219,7 @@ void loop() {
 Program ini, ketika dijalankan, akan terus mendengarkan dan menampilkan informasi mengenai data yang diterima melalui protokol ESP-NOW. Program sender yang sesuai akan mengirimkan data ke ESP32 yang berperan sebagai receiver, dan callback OnDataRecv akan dieksekusi untuk menangani data yang diterima.
 <br>
 
-### B. MEMBUAT DATA DUMMY DENGAN UKURAN YANG TERBACA OLEH RECEIVER ± 250 BYTE
+#### B. MEMBUAT DATA DUMMY DENGAN UKURAN YANG TERBACA OLEH RECEIVER ± 250 BYTE
 Untuk membuat data dummy dengan ukuran yang terbaca oleh receiver $\pm$ 250 byte, yang harus dilakukan adalah dengan mengubah nilai `char a[]` menjadi 236
 ```c
 typedef struct struct_message {
