@@ -126,6 +126,7 @@ Serial Monitor
 ![Serial monitor nodered](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/4aa33974-28e5-4f63-a12a-b3392d372c77)
 
 Debug
+
 ![debug node red](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/6a1fa602-30d3-4ddd-8ede-f437af42b553)
 
 Dashboard
