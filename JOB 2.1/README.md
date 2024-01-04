@@ -45,7 +45,6 @@ Script program As Receiver dapat dilihat [disini](https://github.com/ghinazhafir
 Script program Data Dummy dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/B.%20%20ESP-NOW%20One-Way%20P2P%20Communication/sender%20dummy.ino)
 
 ### Hasil dan Pembahasan
-### Hasil dan Pembahasan
 ### A. ANALISIS PROGRAM SENDER DAN RECEIVER
 **PROGRAM SENDER**
 1. Include Library dan Header
