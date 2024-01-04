@@ -87,8 +87,9 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/eb2f4305-7125-4bd1-a4
 
 ## Project E - Two-Way Communication
 ### Codingan
-1. Pengecekan Sensor DHT11 dapat dilihat [disini]()
-2. Two-Way Communication dapat dilihat [disini]()
+1. Pengecekan Sensor DHT11 dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/E.%20%20Two-Way%20Communication/Cek_Sensor_DHT_11.ino)
+   
+2. Two-Way Communication dapat dilihat [disini](https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202.1/E.%20%20Two-Way%20Communication/Sensor_DHT_11_sender_receiver.ino)
    
 ### Hasil
 1. Pengecekan Sensor DHT11
