@@ -84,7 +84,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/4d3d984f-aebd-4d25-b5
 
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
-
+![job2_A 5](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/de6e831f-bbdd-44b5-91e4-bd7974e14db3)
 
 
 ### b. Source Code
@@ -149,7 +149,7 @@ https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/111cf428-9b58-4bcc-bc
 ### a. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-
+![rangkaian tugas](https://github.com/ghinazhafirah/EMBEDDED/assets/151806874/3a970050-1b29-42d9-93ae-5f366e08c882)
 
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/ghinazhafirah/EMBEDDED/blob/main/JOB%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20untuk%20hak%20akses_/rfid_dan_servo_step5.ino">di sini</a>
